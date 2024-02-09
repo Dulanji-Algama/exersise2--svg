@@ -1,0 +1,29 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: #f3d8e5;
+}
+
+.st0,.st101,.st7{
+  animation-name: y;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes y{
+ 
+  50%{
+    transform: translateY(-22px) scale(1.0);
+  }
+}
